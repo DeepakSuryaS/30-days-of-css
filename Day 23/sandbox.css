@@ -1,0 +1,13 @@
+@supports (display: grid) and (transform: rotate(35deg)) {
+  p {
+    font-size: 1.5rem;
+    color: orange;
+  }
+}
+
+@supports not (display: rainbow) {
+  p {
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px black;
+  }
+}
